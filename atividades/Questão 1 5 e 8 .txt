@@ -1,0 +1,19 @@
+1° Questão :
+
+- Animações
+- timers
+- atualizar elementos sem a necessidade de atualizar a página
+
+
+5° Questão : 
+
+F
+V
+F
+V
+
+8° Questão : 
+
+let é uma variável local.
+var é uma variável geral, pode ser "chamada" independente do local.
+const é uma variável de valor constante, ou seja, não sofre alterações.

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça um programa que leia um nome de usuário e a sua
+        senha e não aceite a senha igual ao nome do usuário,
+        mostrando uma mensagem de erro e voltando a pedir as
+        informações.</title>
+</head>
+<body>
+    <form action="">
+        <label for="usuar"> Digite o nome de usuário:</label>
+        <input type="text" id="name" name="name">
+        <label for="senha">digite a senha escolhida:</label>
+        <input type="text" name="senha" id="senha">
+        <button  type="button" onclick="validar()" >validar</button>
+    </form>
+    
+    resultado <p id="resultado"></p>
+
+    <script>
+        function validar(){
+            var nomeUsuario = document.getElementById("name").value;
+            var usuarSenha = document.getElementById("senha").value;
+            var resultado = document.getElementById("resultado");
+
+            if (nomeUsuario == usuarSenha){
+                return (usuarSenha);
+            }
+            else{
+                resultado.textContent="senha atribuida!"
+            }
+        }
+    </script>
+
+</body>
+</html>

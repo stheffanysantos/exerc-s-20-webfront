@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Problema10</title>
+    </head>
+    <body>
+        <form>
+        <label for="nota">Insira um valor entre 0 e 10
+        <input type="number" id="nota" name=""></label>
+        <button type="button" onclick="validar()">Enviar</button>
+    </form>
+        <p id="resultado"></p>
+    </body>
+    <script src="quest10.js"></script>
+</html>
